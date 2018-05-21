@@ -16,7 +16,6 @@ public class SlotMachineTilePool : MonoBehaviour
     public SlotMachineTilePool(byte[] tiles)
     {
         this.tiles = tiles;
-        enableTiles = new List<byte>(tiles);
     }
 
     public void Reward(byte[] tiles)
@@ -50,15 +49,5 @@ public class SlotMachineTilePool : MonoBehaviour
         return newTile;
     }
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+  
 }
