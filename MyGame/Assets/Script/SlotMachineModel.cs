@@ -5,5 +5,5 @@ using UnityEngine;
 [System.Serializable]
 public class SlotMachineModel  {
 
-    public List<byte[]> data = new List<byte[]>();
+    public List<byte[]> dataArr = new List<byte[]>();
 }
