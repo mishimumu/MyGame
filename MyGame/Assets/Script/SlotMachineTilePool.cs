@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlotMachineTilePool : MonoBehaviour
+public class SlotMachineTilePool 
 {
 
     private byte[] tiles;

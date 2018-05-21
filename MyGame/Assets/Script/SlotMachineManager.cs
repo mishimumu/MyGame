@@ -16,10 +16,6 @@ public class SlotMachineManager : MonoBehaviorSingleton<SlotMachineManager>
         EventDispatcher.AddEventListener(SlotConst.Slot_Start, StartSlot);
     }
 
-    public override void Init()
-    {
-
-    }
 
     void StartSlot()
     {
