@@ -1,2 +1,2 @@
-# MyGame
-A easy uGUI UIFrame
+# Slot machine
+A easy Slot machine game
